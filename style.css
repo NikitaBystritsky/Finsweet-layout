@@ -1,0 +1,175 @@
+
+body{
+    width: 1440px;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0;
+}
+
+h2{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0;
+}
+
+h3{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0;
+}
+
+h4{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+}
+
+h5{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0;
+}
+
+h6{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.p-display{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+}
+
+.p-body_01{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.p-body_02{
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+label{
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.capture_01{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    letter-spacing: 0.19em;
+    font-family: "Inter", sans-serif;
+}
+
+.default-button{
+    padding: 16px 48px;
+    background-color: #FFD050;
+    color: #232536;
+    border: none;
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+header{
+    height: 80px;
+    background-color: #232536;
+    position: relative;
+}
+
+.header-img{
+    position: absolute;
+    left: 83px;
+    top: 25px;
+}
+
+nav{
+    position: absolute;
+    right: 291px;
+    top: 26px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px
+}
+
+nav div{
+    color: #FFFFFF;
+}
+
+.header-button{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 16px 48px;
+    border: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 80px;
+    top: 12px;
+}
+
+.home-hero{
+    height: 720px;
+    background-image: radial-gradient(90.99% 81.93% at 54.58% 30%, rgba(0, 0, 0, 0) 0%, #000 100%), url("/assets/home/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.svg");
+    position: relative;
+}
+
+.home-hero-container{
+    position: absolute;
+    top: 128px;
+    left: 80px;
+    width: 804px;
+}
+
+.home-hero-container .capture_01{
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.home-hero-container .p-display{
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.home-hero-container .p-body_01{
+    color: #FFFFFF;
+    width: 599px;
+}
+
+.home-hero-container button{
+    margin-top: 32px;
+}
