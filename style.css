@@ -481,3 +481,60 @@ nav div{
 .author:nth-child(2){
     background-color: #FBF6EA;
 }
+
+.featured-in{
+    width: 1237px;
+    height: 52px;
+    margin-left: 99px;
+    margin-right: 104px;
+    display: flex;
+    gap: 87px;
+}
+
+.capture-container p{
+    margin: 0;
+    color: #6D6E76;
+}
+
+.capture-container p:nth-child(1){
+    margin: 0;
+    opacity: 0.5;
+}
+
+.capture-container p:nth-child(2){
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 133%;
+    font-family: 'Sen', sans-serif;
+}
+
+.companies-container{
+    display: flex;
+    gap: 73px;
+}
+
+.companies-container img{
+    opacity: 0.8;
+}
+
+.companies-container img:nth-child(1){
+    width: 160px;
+    margin-right: 2px;
+}
+
+.companies-container img:nth-child(2){
+    width: 136px;
+}
+
+.companies-container img:nth-child(3){
+    width: 135px;
+}
+
+.companies-container img:nth-child(4){
+    width: 153px;
+    margin-right: 1px;
+}
+
+.companies-container img:nth-child(5){
+    width: 136px;
+}
