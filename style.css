@@ -7,9 +7,9 @@ body{
 h1{
     font-family: 'Sen', sans-serif;
     font-weight: 700;
-    font-size: 56px;
-    line-height: 64px;
-    letter-spacing: 0;
+    font-size: 48px;
+    line-height: 133%;
+    letter-spacing: -0.04em;
 }
 
 h2{
@@ -69,7 +69,7 @@ h6{
 }
 
 .p-body_02{
-    font-family: 'Sen', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -389,4 +389,95 @@ nav div{
 
 .single-category:nth-child(2) img{
     border-radius: 0;
+}
+
+.special-post{
+    width: 1280px;
+    height: 705px;
+    margin: 128px auto;
+    position: relative;
+}
+
+.special-post-container{
+    width: 706px;
+    height: 584px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.special-post-container .capture_01{
+    margin: 80px;
+    margin-bottom: 0;
+}
+
+.special-post-container h1{
+    margin-left: 80px;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.special-post-container .p-body_01{
+    margin-left: 80px;
+    margin-top: 16px;
+    margin-right: 80px;
+    margin-bottom: 0;
+    color:#6D6E76;
+}
+
+.special-post-container button{
+    margin-left: 80px;
+    margin-top: 32px;
+    margin-right: 80px;
+    margin-bottom: 0;
+}
+
+.list-of-authors{
+    width: 1280px;
+    height: 420px;
+    margin: auto;
+    margin-bottom: 96px;
+}
+
+.list-of-authors h2{
+    margin-left: 515px;
+    margin-right: 534px;
+    width: 231px;
+    margin-bottom: 48px;
+}
+
+.authors{
+    display: flex;
+    gap: 32px;
+}
+
+.author{
+    width: 296px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+}
+
+.author h3{
+    margin: 0;
+    margin-top: 20px;
+}
+
+.author p{
+    margin: 0;
+    margin-bottom: 20px;
+    color: #6D6E76;
+}
+
+.logos-container{
+    display: flex;
+    gap: 16px;
+}
+
+.author:nth-child(2){
+    background-color: #FBF6EA;
 }
