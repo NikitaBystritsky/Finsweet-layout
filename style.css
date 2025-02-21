@@ -143,7 +143,7 @@ nav div{
 
 .home-hero{
     height: 720px;
-    background-image: radial-gradient(90.99% 81.93% at 54.58% 30%, rgba(0, 0, 0, 0) 0%, #000 100%), url("/assets/home/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.svg");
+    background-image: radial-gradient(90.99% 81.93% at 54.58% 30%, rgba(0, 0, 0, 0) 0%, #000 100%), url("/home/assets/home/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.svg");
     position: relative;
 }
 
@@ -613,7 +613,7 @@ nav div{
     border-radius: 100%;
     border: none;
     background-color: #FFFFFF;
-    background-image: url("/assets/home/arrow_left.svg");
+    background-image: url("/home/assets/home/arrow_left.svg");
     background-repeat: no-repeat;
     background-position: 14px;
     position: absolute;
@@ -627,7 +627,7 @@ nav div{
     border-radius: 100%;
     border: none;
     background-color: #232536;
-    background-image: url("/assets/home/arrow_right.svg");
+    background-image: url("/home/assets/home/arrow_right.svg");
     background-repeat: no-repeat;
     background-position: 16px;
     position: absolute;
