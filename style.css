@@ -1196,3 +1196,17 @@ footer{
     margin-top: 16px;
     color:#000;
 }
+
+.list-of-authors-about-us{
+    width: 1280px;
+    height: 776px;
+    margin: auto;
+    margin-bottom: 128px;
+}
+
+.list-of-authors-about-us h2{
+    margin-left: 515px;
+    margin-right: 534px;
+    width: 231px;
+    margin-bottom: 48px;
+}
