@@ -134,7 +134,7 @@ nav{
     gap: 24px
 }
 
-nav div{
+nav div.p-body_01{
     color: #FFFFFF;
 }
 
@@ -1004,4 +1004,141 @@ footer{
 
 .post p{
     color:#6D6E76
+}
+
+.about-us{
+    margin-top: 80px;
+    margin-bottom: 128px;
+    height: 1178px;
+}
+
+.about-us-header{
+    width: 1133px;
+    height: 356px;
+    position: absolute;
+    top: 0;
+    right: 38px;
+    display: flex;
+    gap: 32px;
+    z-index: 1;
+}
+
+.about-us-header-left{
+    background-color: #FFFFFF;
+    width: 624px;
+    height: 356px;
+}
+
+.about-us-header-left p{
+    margin-left: 64px;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+
+.about-us-header-left h1{
+    margin: 0;
+    margin-left: 64px;
+}
+
+.about-us-header .p-body_01{
+    color: #4C4C4C;
+    margin-top: 102px;
+    width: 477px;
+}
+
+.about-us-overview{
+    height: 444px;
+    background-image: url(/about-us/assets/friends.svg);
+    position: absolute;
+    width: 1280px;
+    top: 293px;
+    z-index: 0;
+}
+
+.overview-numbers{
+    width: 630px;
+    height: 156px;
+    background-color: #FFD050;
+    margin-top: 265px;
+    margin-left: 109px;
+    display: flex;
+}
+
+.overview-numbers-blogs{
+    margin-left: 48px;
+    padding-top: 32px;
+}
+
+.overview-numbers-blogs p{
+    margin: 0;
+    color: #000;
+}
+
+.overview-numbers-views{
+    margin-left: 68px;
+    margin-top: 32px;
+}
+
+.overview-numbers-views p{
+    margin: 0;
+    color: #000;
+}
+
+.overview-numbers-users{
+    margin-left: 67.46px;
+    margin-top: 32px;
+}
+
+.overview-numbers-users p{
+    margin: 0;
+    color: #000;
+}
+
+.overview-colors{
+    margin-left: 109px;
+    display: flex;
+}
+
+.overview-colors div:nth-child(1){
+    width: 311.48px;
+    height: 23px;
+    background-color: #592EA9;
+}
+
+.overview-colors div:nth-child(2){
+    width: 550px;
+    height: 23px;
+    background-color:#FFD050
+}
+
+.about-us-mission{
+    width: 1280px;
+    height: 441px;
+    position: absolute;
+    background-color: #F4F0F8;
+    top: 737px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.about-us-mission-container{
+    width: 516px;
+    margin-top: 128px;
+}
+
+.about-us-mission-container p.capture_01{
+    margin: 0;
+}
+
+.about-us-mission-container h3{
+    width: 475px;
+    line-height: 143%;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 1px;
+}
+
+.about-us-mission-container p.p-body_01{
+    margin-top: 0;
 }
