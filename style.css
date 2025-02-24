@@ -460,6 +460,7 @@ nav div.p-body_01{
 .authors{
     display: flex;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .author{
@@ -1141,4 +1142,57 @@ footer{
 
 .about-us-mission-container p.p-body_01{
     margin-top: 0;
+}
+
+.our-team{
+    height: 480px;
+    width: 1280px;
+    display: flex;
+    gap: 80px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 128px;
+}
+
+.our-team-text h2{
+    margin: 0;
+}
+
+.our-team-text h4{
+    margin: 0;
+    margin-top: 16px;
+}
+
+.our-team-text p{
+    margin: 0;
+    margin-top: 16px;
+    color:#000;
+}
+
+.why-we-started{
+    height: 517px;
+    width: 1207px;
+    display: flex;
+    gap: 64px;
+    margin-left: 80px;
+    margin-bottom: 91px;
+}
+
+.why-we-started-text{
+    margin-top: 82px;
+}
+
+.why-we-started-text h2{
+    margin: 0;
+}
+
+.why-we-started-text h4{
+    margin: 0;
+    margin-top: 16px;
+}
+
+.why-we-started-text p{
+    margin: 0;
+    margin-top: 16px;
+    color:#000;
 }
