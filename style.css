@@ -1320,3 +1320,38 @@ footer{
     height: 24px;
     background-color:#592EA9;
 }
+
+.author-blog{
+    height: 1088px;
+}
+
+.author-blog-container{
+    width: 1024px;
+    height: 832px;
+    padding: 128px 208px;
+}
+
+.author-blog-container h1{
+    margin: 0;
+}
+
+.author-blog-container-item{
+    width: 1024px;
+    height: 320px;
+    margin: 0;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap: 32px
+}
+
+.author-blog-container-item div p.capture_01{
+    margin: 0;
+    margin-bottom: 20px;
+    color: #592EA9;
+}
+
+.author-blog-container-item div p.p-body_01{
+    margin: 0;
+    margin-top: 16px;
+}
