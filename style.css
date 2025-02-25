@@ -1007,6 +1007,8 @@ footer{
     color:#6D6E76
 }
 
+/* about us page */
+
 .about-us{
     margin-top: 80px;
     margin-bottom: 128px;
@@ -1211,6 +1213,8 @@ footer{
     margin-bottom: 48px;
 }
 
+/* privacy policy page */
+
 .privacy-policy-header{
     height: 256px;
     background-color: #F4F0F8;
@@ -1255,4 +1259,64 @@ footer{
 
 .privacy-policy-body-container p.p-body_01:nth-child(4){
     margin-bottom: 28px;
+}
+
+/* author page */
+
+.author-header{
+    height: 550px;
+    background-color: #F4F0F8;
+    position: relative;
+}
+
+.author-header-img{
+    position: absolute;
+    top: 128px;
+    left: 208px;
+}
+
+.author-header-heading{
+    width: 669px;
+    height: 236px;
+    position: absolute;
+    top: 130px;
+    right: 280px;
+}
+
+.author-header-heading h1{
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.author-header-heading p{
+    margin-left: 3px;
+}
+
+.author-header-logos-container{
+    display: flex;
+    gap: 16px;
+    position: absolute;
+    top: 390px;
+    left: 491px;
+    width: 112px;
+    height: 16px;
+}
+
+.author-header-colors{
+    position: absolute;
+    bottom: 0;
+    left: 208px;
+    display: flex;
+}
+
+.author-header-yellow-color{
+    width: 752px;
+    height: 24px;
+    background-color: #FFD050;
+}
+
+.author-header-purple-color{
+    width: 271.93px;
+    height: 24px;
+    background-color:#592EA9;
 }
